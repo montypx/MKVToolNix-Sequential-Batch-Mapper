@@ -31,8 +31,6 @@ start_episode = input()
 print('End Episode:')
 end_episode = input()
 
-options_filename_temp = 'options_temp.json'
-
 with open(options_filename) as json_file:
     options_data = json.load(json_file)
 
