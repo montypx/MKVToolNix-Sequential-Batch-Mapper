@@ -32,9 +32,9 @@
 
 - Do this for all the file paths in the JSON file.
 
-6. Find the `mkvmerge.exe` executable within MKVToolNix and get its path (`Shift + Right-Click > Copy as path` from Windows File Explorer).
+6. Download [mkvtoolnix_merge_mapper.py](https://raw.githubusercontent.com/montypx/MKVToolNix-Sequential-Batch-Mapper/main/mkvtoolnix_merge_mapper.py) from this repository and put it in the working directory with all the files so far.
 
-7. Download [mkvtoolnix_merge_mapper.py](https://raw.githubusercontent.com/montypx/MKVToolNix-Sequential-Batch-Mapper/main/mkvtoolnix_merge_mapper.py) from this repository and put it in the working directory with all the files so far.
+7. Find the `mkvmerge.exe` executable within MKVToolNix and get its path (`Shift + Right-Click > Copy as path` from Windows File Explorer).
 
 8. Edit `mkvtoolnix_merge_mapper.py` and insert your path to `mkvmerge.exe` from step 6 into the quotes after the variable `mkv_merge_path` . You MUST include two backslashes `\\` in the path, where there is only one, for this to work.
 
